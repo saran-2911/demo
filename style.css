@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite CU", cursive;
+
+}
+body{
+    background-color: rgb(6, 6, 65);
+    scroll-behavior: smooth;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:rgb(6, 6, 65)l;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background-color: rgb(6, 6, 65);
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo{
+    font-size: xx-large;
+    color:white;
+    text-shadow: 0 0 10px cyan,
+    0 0 10px cyan,
+    0 0 20px cyan,
+    0 0 20px cyan;
+    
+}
+.nav a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+font-size: large;
+}
+.nav a:hover{
+    color: white;
+    text-shadow: 0 0 10px cyan,
+    0 0 10px cyan,
+    0 0 20px cyan,
+    0 0 20px cyan;
+    
+
+}
+.call{
+    text-decoration: none;
+    padding: 10px 20px;
+        color: black;
+        background: white;
+        font-size: larger;
+        border-radius: 20px;
+}
+.call a{
+    text-decoration: none;
+    color: black;
+}
+.call a:hover{
+    color:rgb(17, 135, 135);
+}
+.about {
+    padding-left: 60px;
+    margin-top: 30px;
+    align-items: center;
+    color: cyan;
+
+}
+.about img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 20px;
+    filter: drop-shadow(1px 1px 20px cyan);
+}
+.home{
+    color: white;
+    font-size: 30px;
+    padding-left: 30%;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px cyan,
+    0 0 10px cyan,
+    0 0 20px cyan,
+    0 0 20px cyan;
+    
+}
+.cat {
+    color: cyan;
+}
+.cat img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 20px;
+    filter: drop-shadow(1px 1px 20px rgb(253, 253,1 ));
+
+    
+}
+.menu{
+    margin-top: 40px;
+    color: rgb(11, 11, 92)
+
+}
+.menu table{
+    background-color: rgb(130, 130, 203);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu h2{
+    color: cyan;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+tbody tr td{
+    padding: 20px;
+}
+
+.pro{
+    color: cyan;
+
+}
+.im{
+
+}
+
+.pro img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    filter: drop-shadow(1px 1px 20px rgb(253,253,1));
+    
+}
+
+.im{
+    float: left;
+}
+.pro{
+    margin-top: 50px;
+}
+.pro div{
+    padding-left: 30%;
+}
+.pro div h2{
+    float: left;
+    margin-left: 70px;
+    margin-top: 10%;
+}
+.con{
+    margin-top: 1200px;
+    color: cyan;
+}
+.form{
+    color: cyan;
+    position: absolute;
+    padding-left: 40%;
+
+}
+.form input{
+    font-size: 16px;
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 20px;
+}
+.footercontainer{
+    margin-top: 700px;
+    padding: 70px 30px 20px;
+}
+footer
+{
+    background-color:violet;
+    
+}
+.socialicon{
+    display: flex;
+    justify-content: center;
+
+}
+.socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.socialicon a i{
+    font-size: 2.5em;
+    color: black;
+    opacity: 0.9;
+    
+}
+.socialicon a:hover{
+    background-color: black;
+    transition: 0.5s;
+
+}
+.socialicon a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.foooternav{
+    margin: 30px 0;
+
+}
+.foooternav ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+.foooternav ul li a{
+    color:rgb(6, 6, 65);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    scroll-behavior: smooth;
+
+}
+.foooternav ul li{
+    opacity: 1;
+    list-style-type: none;
+}
+.footerbottom{
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 2px;
+
+}
